@@ -20,8 +20,6 @@ Projeto entregue para a atividade: Gerenciador de Tarefas com Flask, MVC e SQLit
    ```bash
    pip install -r requirements.txt
    ```
-3. Se você já tiver um `users.db` (fornecido pelo enunciado), coloque-o na mesma pasta do `app.py` (raiz do projeto).
-   Caso NÃO tenha um `users.db`, rode o app e ele criará um exemplo com 3 usuários automaticamente.
 4. Executar a aplicação:
    ```bash
    flask run
@@ -37,7 +35,3 @@ Projeto entregue para a atividade: Gerenciador de Tarefas com Flask, MVC e SQLit
 - Criar tarefa: navegue em "Nova Tarefa" ou POST form para /tasks/new
 - Concluir tarefa: botão "Concluir" envia POST para /tasks/update/<task_id>
 - Excluir tarefa: botão "Excluir" envia POST para /tasks/delete/<task_id>
-
-## Observações sobre entrega
-- Entregue por link do repositório no GitHub (coloque esse projeto lá, commit e publique).
-- Se quiser, eu já te mostro os comandos git para você subir ao repo.
