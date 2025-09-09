@@ -1,5 +1,6 @@
-from flask import Flask, render_template, redirect, url_for, request, flash
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flassger import Swagger
 import os
 
 app = Flask(__name__)
@@ -9,6 +10,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
+swagger = Swagger(app)
 
 
 from models.user import User
