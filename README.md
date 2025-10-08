@@ -78,3 +78,12 @@ docker run -p 5000:5000 ap1-gerenciador-tarefas
 ## Observações
 - O arquivo `.env` contém variáveis de configuração. Troque `SECRET_KEY`.
 - O banco `database.db` será criado automaticamente ao rodar a aplicação pela primeira vez.
+
+
+
+
+
+
+
+<img width="1536" height="1024" alt="RE README" src="https://github.com/user-attachments/assets/599d7501-a7ab-49f0-a7d7-89070d83dfcb" />
+
