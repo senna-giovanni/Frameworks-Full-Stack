@@ -1,6 +1,7 @@
 # AP1 - Gerenciador de Tarefas (Entrega 1 - Backend)
 
 ## Descrição
+Integrantes do projeto: Yuri Tito, Giovani Senna e  Enzo Scartezini
 Projeto backend em Flask estruturado em MVC, com persistência em SQLite (SQLAlchemy), documentação Swagger e containerização Docker. Implementa `User` e `Task` com relacionamento 1:N.
 
 ## Estrutura do projeto
