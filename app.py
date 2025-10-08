@@ -1,10 +1,10 @@
 from flask import Flask, jsonify
 from flasgger import Swagger
-from flask_sqlalchemy import SQLAlchemy
+from extensions import db 
 from config import Config
 import os
 
-db = SQLAlchemy()
+
 
 def create_app():
     app = Flask(__name__)

@@ -1,9 +1,9 @@
-from app import db
+from extensions import db
 from models.user import User
 from flask import jsonify, request
 
 def create_user(data):
-    if not data or "nome" not in data or "email" not in data:
+    if not data or not all(key in data for key in ["nome", "email"]):
         return jsonify({"error":"Campos 'nome' e 'email' são obrigatórios."}), 400
     user = User(nome=data["nome"].strip(), email=data["email"].strip())
     db.session.add(user)

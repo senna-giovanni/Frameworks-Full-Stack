@@ -1,4 +1,4 @@
-from app import db
+from extensions import db
 from models.task import Task
 from models.user import User
 from flask import jsonify
