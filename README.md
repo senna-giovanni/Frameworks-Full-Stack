@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -35,7 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
+
 # AP1 - Gerenciador de Tarefas (Entrega 1 - Backend)
 
 ## Descrição
@@ -126,4 +126,3 @@ docker run -p 5000:5000 ap1-gerenciador-tarefas
 
 <img width="1536" height="1024" alt="RE README" src="https://github.com/user-attachments/assets/599d7501-a7ab-49f0-a7d7-89070d83dfcb" />
 
->>>>>>> 698da18d8192e5601e493e363ef161e6cac84a8d
